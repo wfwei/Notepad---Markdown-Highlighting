@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="Markdown" ext="mkdn.txt mkdn mkd">
+        <Settings>
+            <Global caseIgnored="yes" escapeChar="\" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="yes" words3="yes" words4="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">`00`00</Keywords>
+            <Keywords name="Folder+"></Keywords>
+            <Keywords name="Folder-"></Keywords>
+            <Keywords name="Operators">+</Keywords>
+            <Keywords name="Comment"> 1&lt;!-- 1 2--&gt; 0# 0## 0### 0#### 0#####</Keywords>
+            <Keywords name="Words1">http:// (http:// https:// (https:// ftp:// (ftp:// git:// (git:// (/ [ ![</Keywords>
+            <Keywords name="Words2">** __ * _</Keywords>
+            <Keywords name="Words3">&gt;</Keywords>
+            <Keywords name="Words4">--- ---- ----- ------ ------- -------- --------- ---------- ----------- ------------ ------------- -------------</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="BDAE9D" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="BDAE9D" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="BDAE9D" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="37A8ED" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="80FF80" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="FF8080" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="FF8040" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="666666" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="F8F8F8" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="E5C138" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="E5C138" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="408080" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="8080FF" bgColor="2A211C" fontName="" fontStyle="0" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="2A211C" fontName="" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
