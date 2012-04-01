@@ -1,0 +1,138 @@
+* {
+  margin:0;
+  padding:0;
+  font:13px/1.4 normal "DejaVu Sans Mono", monospace;
+}
+
+body {
+  max-width:50em;
+  padding:5em 4em 2em 7em;
+  background:hsl(21, 20%, 14%);
+  color:hsl(32, 20%, 68%);
+}
+
+::-moz-selection,
+::selection {
+  background:hsl(25, 10%, 59%);
+  opacity:1;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, blockquote, pre {
+  margin-bottom:1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top:2.5em;
+  color:hsl(0, 0%, 97%);
+}
+
+h1, 
+h1+h2,
+h2+h3,
+h3+h4,
+h4+h5,
+h5+h6 { margin-top:0; }
+
+h1:before, h2:before, h3:before, h4:before, h5:before, h6:before,
+blockquote:before {
+  float:left;
+  margin-left: -2.3em;
+  padding-right: 1em;
+  color:hsla(0, 0%, 97%, 0.12);
+}
+
+h1:before { content:"#1"; }
+h2:before { content:"#2"; }
+h3:before { content:"#3"; }
+h4:before { content:"#4"; }
+h5:before { content:"#5"; }
+h6:before { content:"#6"; }
+
+ol, ul {
+  list-style: none;
+}
+
+ol {
+  counter-reset:li;
+}
+
+ol > li:before, ul li:before  {
+  float:left;
+  padding-right:0.5em;
+  color:hsl(48, 77%, 56%);
+}
+
+ol > li:before {
+  content:counter(li)".";
+  counter-increment:li;
+}
+
+ul li:before {
+  content:"+";
+}
+
+li ol, li ul {
+  margin-left:1em;
+}
+
+blockquote {
+  color:hsl(0, 100%, 75%);
+}
+
+blockquote:before {
+  margin-top:0.1em;
+  content:"\201c\201d";
+  color:hsla(0, 100%, 75%, 0.25);
+}
+
+blockquote p {
+  margin-bottom:0.5em;
+}
+
+pre {
+  padding: 0.5em 0.5em 0.7em;
+  border-left: 1px dashed hsla(180, 33%, 38%, 0.3);
+  background-color: hsla(180, 33%, 38%, 0.1);
+}
+
+pre code {
+  background-color:transparent;
+}
+
+code {
+  background-color: hsla(180, 33%, 38%, 0.1);
+  font-family:"Courier New", Courier, monospace;
+  color:hsl(180, 33%, 38%);
+}
+
+a:link {
+  text-decoration:none;
+  color:hsl(203, 83%, 57%);
+}
+
+a:visited  {
+  color:hsla(203, 83%, 57%, 0.70);
+}
+
+a:hover, a:focus {
+  border-bottom: 1px solid hsl(203, 83%, 57%);
+}
+
+a:focus {
+  background:hsla(203, 83%, 57%, 0.15);
+  outline:none;
+}
+
+a:active {
+  color:hsl(203, 83%, 90%);
+}
+
+strong {
+  font-weight:bold;
+  color:hsl(120, 100%, 75%);
+}
+
+em {
+  font-style:italic;
+  color:hsl(120, 100%, 75%);
+}
