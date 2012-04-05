@@ -1,4 +1,3 @@
-
 # Notepad++ Markdown Highlighting
 
 ## Colors
@@ -14,7 +13,7 @@ Because of limits of the generic Notepad++ user defined language lexer, highligh
   + Use `+` for lists, or change it in the dialog to dashes. Asterisks will conflict with emphasis highlighting.
   + Horizontal rules should be 3 to 13 dashes, no spaces.
   + Nothing works if you start or end it inside a word.
-  + Remember there's no highlighting for indentation/<pre> tags.
+  + Remember there's no highlighting for indentation/\<pre\> tags.
   
 ## How to use
 
