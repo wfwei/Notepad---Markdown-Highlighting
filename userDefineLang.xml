@@ -1,5 +1,5 @@
 <NotepadPlus>
-    <UserLang name="Markdown" ext="mkdn.txt mkdn mkd">
+    <UserLang name="Markdown" ext="mkdn mkd md">
         <Settings>
             <Global caseIgnored="yes" escapeChar="\" />
             <TreatAsSymbol comment="no" commentLine="yes" />
@@ -10,7 +10,7 @@
             <Keywords name="Folder+"></Keywords>
             <Keywords name="Folder-"></Keywords>
             <Keywords name="Operators">+</Keywords>
-            <Keywords name="Comment"> 1&lt;!-- 1 2--&gt; 0# 0## 0### 0#### 0#####</Keywords>
+            <Keywords name="Comment">1&lt;!-- 1 2--&gt; 0# 0## 0### 0#### 0#####</Keywords>
             <Keywords name="Words1">http:// (http:// https:// (https:// ftp:// (ftp:// git:// (git:// (/ [ ![</Keywords>
             <Keywords name="Words2">** __ * _</Keywords>
             <Keywords name="Words3">&gt;</Keywords>
