@@ -18,7 +18,7 @@ Because of limits of the generic Notepad++ user defined language lexer, highligh
 ## How to use
 
   1. Open `\[user]\AppData\Roaming\Notepad++`
-  2. Replace your `userDefineLang.xml` with the one in this repo, or add the contents of the new `userDefineLang.xml` to the end of your current one.
+  2. Replace your `userDefineLang.xml` with the one in this repo, or add the contents of this `userDefineLang.xml` to the end of your current one.
   3. Restart Notepad++.
   4. Markdown highlighting will now automatically apply to `.mkdn`, `.mkd`, and `.md` files, or you can manually select it from the bottom of the "Language" menu.
   
